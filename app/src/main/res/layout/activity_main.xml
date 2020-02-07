@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="bottom"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/numberOne"
+                android:layout_width="54dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/number_1"
+                tools:src="@drawable/number_1" />
+
+            <ImageView
+                android:id="@+id/numberTwo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/number_2"
+                tools:src="@drawable/number_2"
+                android:clickable="true"
+                android:focusable="true"/>
+            <ImageView
+                android:id="@+id/numberThree"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/number_3"
+                tools:src="@drawable/number_3"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <ImageView
+                android:id="@+id/numberFour"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/number_4"
+                tools:src="@drawable/number_4" />
+
+            <ImageView
+                android:id="@+id/numberFive"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/number_5"
+                tools:src="@drawable/number_5"
+                android:clickable="true"
+                android:focusable="true"/>
+            <ImageView
+                android:id="@+id/numberSix"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/number_6"
+                tools:src="@drawable/number_6"
+                android:clickable="true"
+                android:focusable="true"/>
+            <ImageView
+                android:id="@+id/numberSeven"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/number_7"
+                tools:src="@drawable/number_7"
+                android:clickable="true"
+                android:focusable="true"/>
+            <ImageView
+                android:id="@+id/numberEight"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/number_8"
+                tools:src="@drawable/number_8"
+                android:clickable="true"
+                android:focusable="true"/>
+            <ImageView
+                android:id="@+id/numberNine"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/number_9"
+                tools:src="@drawable/number_9"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/roll_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/roll" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/dice_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/empty_dice"
+                tools:src="@drawable/dice_1" />
+
+            <ImageView
+                android:id="@+id/dice_image2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="end"
+                android:src="@drawable/empty_dice"
+                android:layout_weight="1"
+                tools:src="@drawable/dice_1" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
+
+
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:orientation="horizontal"-->
+    <!--    tools:context=".MainActivity">-->
+
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/dice_image2"-->
+    <!--        android:layout_width="150dp"-->
+    <!--        android:layout_height="150dp"-->
+    <!--        android:src="@drawable/empty_dice"-->
+    <!--        tools:src="@drawable/dice_1"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:padding="16dp"/>-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/dice_image"-->
+    <!--        android:layout_width="150dp"-->
+    <!--        android:layout_height="150dp"-->
+    <!--        android:layout_gravity="bottom"-->
+    <!--        android:src="@drawable/empty_dice"-->
+    <!--        tools:src="@drawable/dice_1"-->
+    <!--        android:gravity="center"-->
+    <!--        android:layout_alignParentBottom="true"/>-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:layout_gravity="bottom">-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/roll_button"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="bottom"-->
+    <!--            android:text="@string/roll" />-->
+
+    <!--    </LinearLayout>-->
+
+
+
+
+    <!--</RelativeLayout>-->
+
+
